@@ -13,7 +13,8 @@ add_executable(test-rsl
     random.cpp
     static_string.cpp
     static_vector.cpp
-    try.cpp)
+    try.cpp
+    type.cpp)
 target_link_libraries(test-rsl PRIVATE
     rsl::rsl
     Catch2::Catch2WithMain
